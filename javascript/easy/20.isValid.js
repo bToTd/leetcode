@@ -49,7 +49,7 @@ var isValid = function(s) {
                 break;
         }
     }
-
+    // 字符串遍历完之后，符号栈不为空，则一定是不符合的
     if(symbolStack.length > 0){
         return false;
     }
